@@ -46,17 +46,17 @@ public class JavaScriptExecutorConcept {
 		
 //		WebElement loginbtn=driver.findElement(By.xpath("//input[@type='submit']"));
 //		jsUtil.flash(loginbtn);
-//		
-//		WebElement username=driver.findElement(By.name("username"));
-//		jsUtil.flash(loginbtn);
-//		username.sendKeys("Automation");
-//		
-//		jsUtil.drawBorder("red", username);
+////		
+		WebElement username=driver.findElement(By.name("email"));
+		jsUtil.flash(username);
+		username.sendKeys("Automation");
+		
+		jsUtil.drawBorder("red", username);
 //		
 //		jsUtil.scrollPageDown();
 		
-		WebElement registerLink=driver.findElement(By.linkText("Register"));
-		jsUtil.clickElementByJs(registerLink);
+//		WebElement registerLink=driver.findElement(By.linkText("Register"));
+//		jsUtil.clickElementByJs(registerLink);
 		
 		}
 	
